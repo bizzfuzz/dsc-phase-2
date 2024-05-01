@@ -9,12 +9,11 @@ The real estate sector encompasses a diverse range of activities involving the a
 
 The client is King County Realty. A real estate company looking to understand the anatomy of a high priced home. Armed with a dataset of house sales in King County, the team of analysts look to define the most sought after characteristics in a home.
 
-This analysis will focus on the following factors that majorly affect the real estate industry to achieve the client's request:
-i) Market Trends: This help real estate agents, investors, and other stakeholders make well-informed decisions about the purchase, sale, and investment strategies of real estate, the dataset provides insights into pricing dynamics, market trends, and property features.
-ii) Customer Preferences: Understanding of consumer preferences and market demand through analysis of bedroom and bathroom numbers, property condition, view ratings makes targeted markeing and property customization easier and more scalable so as to suit all their clients' expectations.
-iii) Investment Opportunities: By analyzing variables including property size, location, condition, and market trends, investors in real estate can find properties that are cheap, evaluate possible returns, and optimize their investment portfolios.
-iv) Competitive Analysis: Real estate agents can benchmark against rivals, spot market gaps, and more by comparing property prices, sizes, amenities, and location features.
-and set themselves out from the competition to obtain a market advantage.
+This analysis will focus on the following factors that majorly affect the real estate industry to achieve the client's request:<br>
+i) Market Trends: This analysis will help the client make well-informed decisions about the purchase, sale, and investment strategies of real estate. The dataset provides insights into pricing dynamics, market trends, and property features.<br>
+ii) Customer Preferences: Understanding of consumer preferences and market demand through analysis of bedroom and bathroom numbers, property condition, view ratings makes targeted markeing and property customization easier and more scalable so as to suit all their clients' expectations.<br>
+iii) Investment Opportunities: By analyzing variables including property size, location, condition, and market trends, investors in real estate can find properties that are cheap, evaluate possible returns, and optimize their investment portfolios.<br>
+iv) Competitive Analysis: Real estate agents can benchmark against rivals, spot market gaps, and more by comparing property prices, sizes, amenities, and location features and set themselves out from the competition to obtain a market advantage.
 
 ## Data Understatnding
 
