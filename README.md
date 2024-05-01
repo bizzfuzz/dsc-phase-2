@@ -31,3 +31,6 @@ The yr_renovated column has a maximum value of 2015, which seems unusual as it's
 Inconsistent Data Types:
 Some columns, such as waterfront, view, condition, and grade, appear to have categorical data but are represented as objects (strings) instead of categorical data types.
 The date column is represented as an object (string) but should be converted to a datetime data type for easier manipulation and analysis.
+
+## Findings
+The biggest factor that increases a house's price was number floors. Adding $19,0000 to the asking price for every additional floor. Other major contributing factors were number o bathrooms and the condition rating of the home. Houses with a view also demand a higher fee.
