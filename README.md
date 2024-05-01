@@ -1,70 +1,44 @@
-# KING COUNTY REAL ESTATE ANALYSIS
+# Phase 2 Project Description
 
-## Overview
+Another module down - you're almost half way there!
 
-The real estate sector encompasses a diverse range of activities involving the acquisition, development, management, and transaction of properties, including residential, commercial, and investment real estate. The urban real estate investment business model is undergoing a fundamental overhaul attributed to digitization and a growing market for smart and environmentally demanding buildings.
-Data analysis tools can be used to extract valuable information for important decision-making such as house price predictions.
+![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v2-3/main/halfway-there.gif)
 
+All that remains in Phase 2 is to put your newfound data science skills to use with a large project!
 
-## Business Understanding
+In this project description, we will cover:
 
-A client has a property in King County, WA that they are looking to sell. Having no prior knowledge or experience with the real estate industry, he has chosen to approach our agency so as not miss out on the chance of maximizing their profit potential. The main concern is the potential renovation to focus on that would have the least effect in production price and still increase property value.
-Data being analyzed is housing data from King County, WA in order to identify what opportunities there are to increase the sales price of the home, and by how much.
+* Project Overview: the project goal, audience, and dataset
+* Deliverables: the specific items you are required to produce for this project
+* Grading: how your project will be scored
+* Getting Started: guidance for how to begin working
 
-This analysis will focus on the following factors that majorly affect the real estate industry to achieve the client's request:
-i) Market Trends: This help real estate agents, investors, and other stakeholders make well-informed decisions about the purchase, sale, and investment strategies of real estate, the dataset provides insights into pricing dynamics, market trends, and property features.
-ii) Customer Preferences: Understanding of consumer preferences and market demand through analysis of bedroom and bathroom numbers, property condition, view ratings makes targeted markeing and property customization easier and more scalable so as to suit all their clients' expectations.
-iii) Investment Opportunities: By analyzing variables including property size, location, condition, and market trends, investors in real estate can find properties that are cheap, evaluate possible returns, and optimize their investment portfolios.
-iv) Competitive Analysis: Real estate agents can benchmark against rivals, spot market gaps, and more by comparing property prices, sizes, amenities, and location features.
-and set themselves out from the competition to obtain a market advantage.
+## Project Overview
 
-## Data Understatnding
+For this project, you will use multiple linear regression modeling to analyze house sales in a northwestern county.
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The description of the column names can be found in `column_names.md` in the same folder. The following keywords have been used as the column names and their meaning as used in the dataset:
+### Business Problem
 
-id: Unique identifier for each property.
-date: Date when the property was sold.
-price: Price at which the property was sold.
-bedrooms: Number of bedrooms in the property.
-bathrooms: Number of bathrooms in the property.
-sqft_living: Total square footage of living space in the property.
-sqft_lot: Total square footage of the lot.
-floors: Number of floors in the property.
-waterfront: Indicates whether the property has a waterfront view (e.g., "YES", "NO").
-view: Rating of the view from the property (e.g., "NONE", "GOOD").
-condition: Overall condition of the property (e.g., "EXCELLENT", "FAIR").
-grade: Grade assigned to the property (e.g., "AVERAGE", "GOOD").
-sqft_above: Square footage of the property above ground level.
-sqft_basement: Square footage of the property's basement.
-yr_built: Year the property was built.
-yr_renovated: Year the property was renovated, if applicable.
-zipcode: Zip code of the property location.
-lat: Latitude coordinate of the property location.
-long: Longitude coordinate of the property location.
-sqft_living15: Total square footage of living space for the 15 nearest neighbors.
-sqft_lot15: Total square footage of the lot for the 15 nearest neighbors.
-This dataset provides a comprehensive overview of various attributes of real estate properties, including their physical characteristics, location, and sale details. Analyzing this dataset can provide insights into factors influencing property prices and market trends.
+It is up to you to define a stakeholder and business problem appropriate to this dataset.
 
-The insights derived from the give_info() method provide essential details about the dataset, contributing to a comprehensive understanding:
+If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
 
-This data set has 21 columns namely: 
-id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode, lat, long, sqft_living15, sqft_lot15.
+### The Data
 
-Missing Values:
-waterfront, view, and yr_renovated columns have missing values. This can be seen in the count row of the descriptive statistics section.
+This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
 
-Potential Data Quality Issues:
-The bedrooms column has a maximum value of 33, which seems unusually high and might be an error or outlier.
-The bathrooms column has a maximum value of 8, which could also be considered high and should be examined for outliers.
-The yr_renovated column has a maximum value of 2015, which seems unusual as it's the same as the maximum value of the yr_built column. This suggests that some values in the yr_renovated column might represent the year built instead of renovation years.
+It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you **ignore** some or all of the following features:
 
-Inconsistent Data Types:
-Some columns, such as waterfront, view, condition, and grade, appear to have categorical data but are represented as objects (strings) instead of categorical data types.
-The date column is represented as an object (string) but should be converted to a datetime data type for easier manipulation and analysis.
-
-Potential Outliers:
-Outliers may exist in numerical columns such as price, bedrooms, bathrooms, sqft_living, sqft_lot, sqft_above, sqft_basement, yr_built, yr_renovated, lat, long, sqft_living15, and sqft_lot15. Visualizing the distributions of these columns can help identify outliers.
-
+* `date`
+* `view`
+* `sqft_above`
+* `sqft_basement`
+* `yr_renovated`
+* `zipcode`
+* `lat`
+* `long`
+* `sqft_living15`
+* `sqft_lot15`
 
 ### Key Points
 
