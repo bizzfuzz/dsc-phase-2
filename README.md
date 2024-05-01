@@ -33,4 +33,4 @@ Some columns, such as waterfront, view, condition, and grade, appear to have cat
 The date column is represented as an object (string) but should be converted to a datetime data type for easier manipulation and analysis.
 
 ## Findings
-The biggest factor that increases a house's price was number floors. Adding $19,000 to the asking price for every additional floor. Other major contributing factors were number o bathrooms and the condition rating of the home. Houses with a view also demand a higher fee.
+The biggest factor to increase a house's price was number of floors. Adding $19,000 to the asking price for every additional floor. Other major contributing factors were number o bathrooms and the condition rating of the home. Houses with a view also demand a higher fee.
